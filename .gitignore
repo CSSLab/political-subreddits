@@ -1,0 +1,6 @@
+.ipynb_checkpoints
+/metastore_db
+/trained_embeddings
+/dataframes
+/temp
+*.log
