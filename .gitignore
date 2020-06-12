@@ -1,6 +1,7 @@
 .ipynb_checkpoints
 /metastore_db
 /trained_embeddings
+/__pycache__
 /dataframes
 /temp
 *.log

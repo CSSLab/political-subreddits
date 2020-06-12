@@ -14,7 +14,7 @@ def generate_embedding(time_frame=None,**arg_dict):
     if time_frame:
         subprocess.run("mkdir -p trained_embeddings/temporal/{}".format(time_frame), shell=True)
         output = "./trained_embeddings/temporal/{}/{}_vecs_{p1}_{p2}.txt".format(time_frame,time_frame,**arg_dict)
-    command = "./word2vecf/word2vecf -output {} -train {file_data} -wvocab {file_wv} -cvocab {file_cv} -threads 180 -alpha {alpha} -size {size} -{param1} {p1} -{param2} {p2}".format(output,**arg_dict)
+    command = "./word2vecf/word2vecfadapted -output {} -train {file_data} -wvocab {file_wv} -cvocab {file_cv} -threads 180 -alpha {alpha} -size {size} -{param1} {p1} -{param2} {p2}".format(output,**arg_dict)
     if not os.path.exists(output):
         subprocess.run(command, shell=True)
     return output
