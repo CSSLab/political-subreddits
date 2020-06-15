@@ -141,18 +141,19 @@ void *TrainModelThread(void *id) {
         if (word_count - last_word_count > 10000) {
            word_count_actual += word_count - last_word_count;
            last_word_count = word_count;
+           long p = word_count_actual / (real)(numiters*train_words + 1);
            if ((debug_mode > 1)) {
               now=clock();
               printf("%cAlpha: %f  Progress: %.2f%%  Words/thread/sec: %.2fk  ", 13, alpha,
-                    word_count_actual / (real)(numiters*train_words + 1) * 100,
+                    p * 100,
                     word_count_actual / ((real)(now - start + 1) / (real)CLOCKS_PER_SEC * 1000));
               fflush(stdout);
            }
-           alpha = starting_alpha * (1 - word_count_actual / (real)(numiters*train_words + 1));
+           alpha = starting_alpha * (1 - p);
            if (alpha < starting_alpha * 0.0001) alpha = starting_alpha * 0.0001;
         }
         // if (feof(fi) || ftell(fi) > end_offset) break;
-        if (feof(fi) || word_count_actual / (real)(numiters*train_words + 1) > 1) break;
+        if (feof(fi) || p > 1) break;
         for (c = 0; c < layer1_size; c++) neu1[c] = 0;
         for (c = 0; c < layer1_size; c++) neu1e[c] = 0;
         wrdi = ReadWordIndex(wv, fi);
