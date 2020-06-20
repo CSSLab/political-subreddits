@@ -1,6 +1,7 @@
 import numpy as np
 from numpy.linalg import norm
 from datetime import datetime
+from glob import glob
 import pandas as pd
 import subprocess
 import sys
@@ -35,3 +36,11 @@ def parse_tup(tup):
     to_tup = tup.strip('()').split(',')
     to_tup[1] = datetime.strptime(to_tup[1], "%Y-%m-%d")
     return to_tup
+
+def coalese_csvs(dir_fp,output_fp,chunksize=50000):
+    csv_file_list = glob("{}/*.csv".format(dir_fp)) 
+    for csv_file_name in csv_file_list:
+        chunk_container = pd.read_csv(csv_file_name, chunksize=chunksize)
+        for chunk in chunk_container:
+            chunk.to_csv(output_fp, mode="a", index=False)
+    return output_fp
