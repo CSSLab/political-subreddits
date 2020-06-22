@@ -32,11 +32,11 @@
 #include "vocab.h"
 #include "io.h"
 
-#define MAX_STRING 100
-#define EXP_TABLE_SIZE 1000
-#define MAX_EXP 6
-#define MAX_SENTENCE_LENGTH 1000
-#define MAX_CODE_LENGTH 40
+#define MAX_STRING 1000
+#define EXP_TABLE_SIZE 100000
+#define MAX_EXP 600
+#define MAX_SENTENCE_LENGTH 10000
+#define MAX_CODE_LENGTH 400
 
 typedef float real;                    // Precision of float numbers
 
@@ -141,19 +141,18 @@ void *TrainModelThread(void *id) {
         if (word_count - last_word_count > 10000) {
            word_count_actual += word_count - last_word_count;
            last_word_count = word_count;
-           long p = word_count_actual / (real)(numiters*train_words + 1);
            if ((debug_mode > 1)) {
               now=clock();
               printf("%cAlpha: %f  Progress: %.2f%%  Words/thread/sec: %.2fk  ", 13, alpha,
-                    p * 100,
+                    word_count_actual / (real)(numiters*train_words + 1) * 100,
                     word_count_actual / ((real)(now - start + 1) / (real)CLOCKS_PER_SEC * 1000));
               fflush(stdout);
            }
-           alpha = starting_alpha * (1 - p);
+           alpha = starting_alpha * (1 - word_count_actual / (real)(numiters*train_words + 1));
            if (alpha < starting_alpha * 0.0001) alpha = starting_alpha * 0.0001;
         }
         // if (feof(fi) || ftell(fi) > end_offset) break;
-        if (feof(fi) || p > 1) break;
+        if (feof(fi) || word_count_actual / (real)(numiters*train_words + 1) > 1) break;
         for (c = 0; c < layer1_size; c++) neu1[c] = 0;
         for (c = 0; c < layer1_size; c++) neu1e[c] = 0;
         wrdi = ReadWordIndex(wv, fi);
@@ -464,7 +463,9 @@ int main(int argc, char **argv) {
   if (output_file[0] == 0) { printf("must supply -output.\n\n"); return 0; }
   if (wvocab_file[0] == 0) { printf("must supply -wvocab.\n\n"); return 0; }
   if (cvocab_file[0] == 0) { printf("must supply -cvocab.\n\n"); return 0; }
+  printf("Initializing expTable\n\n");
   expTable = (real *)malloc((EXP_TABLE_SIZE + 1) * sizeof(real));
+  printf("Precomputing expTable\n\n");
   for (i = 0; i < EXP_TABLE_SIZE; i++) {
     expTable[i] = exp((i / (real)EXP_TABLE_SIZE * 2 - 1) * MAX_EXP); // Precompute the exp() table
     expTable[i] = expTable[i] / (expTable[i] + 1);                   // Precompute f(x) = x / (x + 1)

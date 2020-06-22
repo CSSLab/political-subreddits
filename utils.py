@@ -2,6 +2,7 @@ import numpy as np
 from numpy.linalg import norm
 from datetime import datetime
 from glob import glob
+from tqdm.auto import tqdm
 import pandas as pd
 import subprocess
 import sys
@@ -9,6 +10,8 @@ import os
 
 cos_sim = lambda a,b : np.dot(a, b)/(norm(a)*norm(b))
 cos_dist = lambda a,b : 1 - cos_sim(a,b)
+
+CANDIDATE_SUBS = ["JoeBiden","SandersForPresident","BaemyKlobaechar","ElizabethWarren","Pete_Buttigieg","YangForPresidentHQ"]
 
 def generate_embedding(time_frame=None,**arg_dict):
     output = "./trained_embeddings/vecs_{p1}_{p2}.txt".format(**arg_dict)
@@ -32,15 +35,16 @@ def load_embedding(filepath,split=True, **kwargs):
     embedding = pd.concat([subreddits, vectors], axis=1).set_index("subreddit")
     return embedding
 
-def parse_tup(tup):
+def parse_tup(tup,date_str="%Y-%m-%d"):
     to_tup = tup.strip('()').split(',')
-    to_tup[1] = datetime.strptime(to_tup[1], "%Y-%m-%d")
+    to_tup[1] = datetime.strptime(to_tup[1],date_str)
     return to_tup
 
 def coalese_csvs(dir_fp,output_fp,chunksize=50000):
     csv_file_list = glob("{}/*.csv".format(dir_fp)) 
-    for csv_file_name in csv_file_list:
-        chunk_container = pd.read_csv(csv_file_name, chunksize=chunksize)
-        for chunk in chunk_container:
-            chunk.to_csv(output_fp, mode="a", index=False)
+    if not os.path.exists(output_fp):
+        for csv_file_name in tqdm(csv_file_list):
+            chunk_container = pd.read_csv(csv_file_name, chunksize=chunksize)
+            for chunk in chunk_container:
+                chunk.to_csv(output_fp, mode="a", index=False)
     return output_fp
