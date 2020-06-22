@@ -48,3 +48,4 @@ def coalese_csvs(dir_fp,output_fp,chunksize=50000):
             for chunk in chunk_container:
                 chunk.to_csv(output_fp, mode="a", index=False)
     return output_fp
+
