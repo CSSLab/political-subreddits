@@ -1,0 +1,123 @@
+"Thinking about the 2020 presidential election, who would be your choice for the Democratic nomination for president?",,,,,,,,,,,
+"BASED ON DEMOCRATS AND DEMOCRATIC-LEANING REGISTERED VOTERS [N=5,861]",,,,,,,,,,,
+Dimension,Demographic,Biden,Sanders,Warren,Buttigieg,Bloomberg,Yang,Klobuchar,Other candidates,DK/Ref/Other response,Unweighted N
+Total,All Dem/Lean Dem registered voters,26,21,16,7,5,3,2,3,17,5861
+Sex,Men,26,24,15,7,5,5,2,3,13,2428
+Sex,Women,26,19,16,7,5,2,3,3,20,3424
+Race,White non-Hispanic,24,21,19,10,6,3,4,3,11,3612
+Race,Black non-Hispanic,36,13,9,0,5,2,0,3,32,773
+Race,Hispanic,22,30,11,2,5,5,0,2,22,1110
+Race,Other,23,23,21,4,3,10,1,4,11,314
+Age (4-way),18-29,9,40,17,3,2,10,0,4,16,616
+Age (4-way),30-49,19,25,19,6,3,4,2,4,18,1912
+Age (4-way),50-64,34,13,14,8,6,1,3,3,18,1741
+Age (4-way),65,39,10,13,8,8,0,5,3,13,1577
+Age (detailed),18-34,11,37,18,4,2,8,0,3,17,1070
+Age (detailed),35-39,14,26,23,6,5,4,1,3,18,509
+Age (detailed),40-49,24,21,17,7,2,4,3,5,18,949
+Age (detailed),50-59,33,14,13,8,5,2,3,3,19,1108
+Age (detailed),60-64,37,10,14,8,8,1,2,3,16,633
+Age (detailed),65-69,34,10,16,10,6,0,4,4,15,597
+Age (detailed),70,42,10,11,7,10,0,5,2,12,979
+Marital status,Married/LWP,26,20,16,8,6,3,3,3,15,3481
+Marital status,Divorced/Separated,30,17,16,6,4,2,2,3,21,869
+Marital status,Widowed,46,10,8,6,8,0,1,3,17,296
+Marital status,Never married,21,26,17,5,4,5,1,4,18,1204
+Education (2-way),College grad+,24,19,24,10,6,3,5,3,8,3629
+Education (2-way),No college degree,28,22,10,4,5,4,1,3,23,2225
+Education (detailed),Postgrad,25,13,28,11,5,2,6,4,6,1862
+Education (detailed),4-year college,22,23,20,9,6,3,3,3,9,1767
+Education (detailed),Some college,24,26,13,5,5,4,1,3,18,1559
+Education (detailed),HS or less,31,19,8,3,4,4,0,3,28,666
+Religion (detalied),White evangelical Protestant,37,12,14,9,6,2,2,2,16,254
+Religion (detalied),White mainline Protestant,26,12,14,13,7,1,6,5,15,672
+Religion (detalied),Black Protestant,44,11,7,0,4,1,0,3,30,553
+Religion (detalied),White non-Hispanic Catholic,37,14,10,12,9,2,4,3,10,549
+Religion (detalied),Hispanic Catholic,29,25,7,1,7,4,0,4,23,512
+Religion (detalied),Atheist,12,30,29,10,3,6,2,3,5,600
+Religion (detalied),Agnostic,16,36,23,7,3,4,4,2,4,552
+Religion (detalied),Nothing in particular,18,23,16,6,5,4,2,3,23,1194
+Religion,NET Protestant,36,13,11,5,5,2,2,3,22,1758
+Religion,NET Catholic,34,18,10,7,8,3,2,3,16,1125
+Religion,Jewish,31,11,20,13,8,1,4,2,11,223
+Religion,Unaffiliated,17,28,21,7,4,4,2,3,15,2346
+Religious attendance,Once a week+,38,11,10,5,6,2,4,3,22,1133
+Religious attendance,Monthly/yearly,30,19,14,6,6,4,2,3,17,1361
+Religious attendance,Seldom,27,20,16,7,4,4,2,3,18,1449
+Religious attendance,Never,17,28,20,8,5,4,2,4,13,1911
+Veteran (self),"Yes, self",35,21,12,6,6,3,4,4,10,491
+Veteran (self),"No, but veteran in household",35,16,11,6,5,2,2,3,20,747
+Veteran (self),"No, no veteran in household",23,22,17,7,5,4,2,3,17,4616
+Veteran (household),Self or Household veteran,35,18,11,6,6,2,3,3,16,1238
+Veteran (household),"No, no veteran in household",23,22,17,7,5,4,2,3,17,4616
+Union (self),"Yes, self",26,21,23,7,5,3,3,3,9,742
+Union (self),"No, but union member in household",26,23,18,3,5,5,2,3,15,417
+Union (self),"No, no union member in household",26,21,15,7,5,3,2,3,18,4692
+Union (household),Self or Household union member,26,22,21,5,5,4,2,3,11,1159
+Union (household),"No, no union member in household",26,21,15,7,5,3,2,3,18,4692
+Income (3-way),"$75,000.00",25,18,22,10,6,4,4,3,8,2752
+Income (3-way),"$30-$74,999",25,24,15,6,4,3,2,3,17,1873
+Income (3-way),"<$30,000",27,21,9,3,5,3,1,4,28,1061
+Income (detailed),"Less than $20,0000",27,18,8,3,5,3,0,4,31,617
+Income (detailed),"$20,000 to less than $30,000",25,26,10,3,6,2,1,3,23,444
+Income (detailed),"$30,000 to less than $40,000",25,26,12,3,3,2,1,4,24,457
+Income (detailed),"$40,000 to less than $50,000",22,28,12,7,3,6,3,3,17,431
+Income (detailed),"$50,000 to less than $75,000",28,21,20,8,5,3,2,2,12,985
+Income (detailed),"$75,000 to less than $100,000",26,20,20,9,5,4,4,3,9,832
+Income (detailed),"$100,000 to less than $150,000",26,17,24,10,4,4,4,3,8,1010
+Income (detailed),"$150,000 or more",23,17,22,12,8,4,6,4,6,910
+Ideology,NET Liberal,21,28,26,7,3,2,2,3,9,3047
+Ideology,NET Cons/Mod,30,15,8,7,7,5,2,4,23,2774
+Ideology (detailed),Very Liberal,12,38,30,3,1,2,2,2,9,978
+Ideology (detailed),Liberal,25,22,23,8,4,2,3,3,8,2069
+Ideology (detailed),Moderate,30,16,8,8,7,5,3,4,19,2454
+Ideology (detailed),NET Conservatives,33,7,4,2,4,1,0,3,47,320
+Democratic primary timing,Super Tuesday or earlier state,25,20,17,6,4,4,2,4,17,2137
+Democratic primary timing,Lives in another state,26,21,15,7,5,3,3,3,16,3724
+USR,Urban,24,24,16,5,5,4,2,3,16,1939
+USR,Suburban,26,20,17,7,6,4,2,4,14,2973
+USR,Rural,28,18,12,7,4,2,2,3,25,944
+Region,Northeast,25,21,17,5,8,3,2,4,15,1051
+Region,Midwest,23,22,15,10,5,4,4,2,16,1167
+Region,South,30,18,14,5,4,2,2,3,22,2262
+Region,West,23,24,18,8,4,5,3,3,12,1381
+Sex by age,"Men, 18-49",14,34,18,6,3,9,1,3,12,1007
+Sex by age,"Women, 18-49",17,27,19,4,2,4,1,4,23,1519
+Sex by age,"Men, 50+",39,12,13,7,7,1,3,3,15,1413
+Sex by age,"Women, 50+",34,11,14,9,8,1,4,3,17,1899
+Sex by age (among whites),"Men, 18-49",13,38,20,10,2,6,3,2,6,582
+Sex by age (among whites),"Women, 18-49",11,29,25,7,1,4,2,4,17,740
+Sex by age (among whites),"Men, 50+",36,13,15,10,8,1,4,3,9,978
+Sex by age (among whites),"Women, 50+",31,10,17,13,9,0,6,3,11,1305
+Sex by education,"Men, College grad+",26,21,21,10,6,4,4,3,5,1586
+Sex by education,"Women, College grad+",22,17,26,10,5,2,5,3,10,2038
+Sex by education,"Men, No college degree",26,25,12,5,4,6,1,3,18,839
+Sex by education,"Women, No college degree",29,20,9,4,5,2,1,3,27,1382
+Sex by education (among whites),"Men, College grad+",24,22,21,13,6,4,5,2,4,1134
+Sex by education (among whites),"Women, College grad+",19,16,28,13,4,2,7,3,8,1411
+Sex by education (among whites),"Men, No college degree",26,28,14,8,4,3,2,3,11,426
+Sex by education (among whites),"Women, No college degree",28,19,11,8,8,2,1,3,19,634
+Sex by marital status,"Men, Married/Live with partner",27,22,16,8,5,4,3,3,13,1595
+Sex by marital status,"Women, Married/Live with partner",25,19,16,8,6,3,4,3,16,1883
+Sex by marital status,"Men, Divorced/Separated",32,19,18,5,5,3,3,3,12,257
+Sex by marital status,"Women, Divorced/Separated",29,16,15,6,4,1,1,3,25,611
+Sex by marital status,"Men, Never been married",20,29,15,6,5,8,0,4,14,503
+Sex by marital status,"Women, Never been married",22,22,20,4,3,2,2,3,22,698
+Veteran household by age,"Self or Household, 18-49",18,32,15,4,2,6,1,3,19,303
+Veteran household by age,"No, 18-49",15,30,19,5,3,6,1,4,17,2223
+Veteran household by age,"Self or Household, 50+",42,12,10,6,7,1,4,3,15,935
+Veteran household by age,"No, 50+",34,11,15,9,7,1,3,3,16,2378
+Union household by age,"Self or Household, 18-49",17,31,23,4,4,7,1,3,11,475
+Union household by age,"No, 18-49",15,30,17,5,2,6,1,4,19,2050
+Union household by age,"Self or Household, 50+",35,14,19,7,6,1,4,3,12,683
+Union household by age,"No, 50+",37,11,12,9,8,1,3,3,17,2629
+Race/ethnicity by age,"White non-Hispanic, 18-49",12,34,22,9,2,5,2,4,11,1324
+Race/ethnicity by age,"Black non-Hispanic, 18-49",26,18,12,0,5,4,0,3,31,354
+Race/ethnicity by age,"Hispanic, 18-49",16,35,13,2,3,8,0,3,21,649
+Race/ethnicity by age,"Other, 18-49",13,27,22,3,2,11,1,6,13,182
+Race/ethnicity by age,"White non-Hispanic, 50+",33,11,16,12,9,1,5,3,10,2284
+Race/ethnicity by age,"Black non-Hispanic, 50+",45,7,7,0,4,0,0,3,32,418
+Race/ethnicity by age,"Hispanic, 50+",36,21,6,2,8,0,0,2,24,452
+Party Identifiers,Democratic identifier,30,19,17,6,4,2,2,3,16,4200
+Party Identifiers,Democratic leaner (Independent/Other party/DK),18,24,14,8,6,6,2,3,18,1661
+"CORRECTION: (January 31, 2020) In previous version of table, education labels for sex by education and sex by education among whites were flipped. Table has been updated.",,,,,,,,,,,
