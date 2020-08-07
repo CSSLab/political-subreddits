@@ -54,11 +54,6 @@ def clean_text(text):
             stem_text.append(token)
     return stem_text
 
-       
-if __name__ == "__main__":
-    print(clean_text("He was running and eating at same time. He has bad habit of swimming after playing long hours in the Sun."))
-    
-
 cos_sim = lambda a,b : np.dot(a, b)/(norm(a)*norm(b))
 cos_dist = lambda a,b : 1 - cos_sim(a,b)
 
