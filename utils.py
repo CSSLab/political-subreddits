@@ -38,7 +38,7 @@ lemma = WordNetLemmatizer()
 stopwords = stopwords.words('english')
 
 def clean_text(text):
-    text = text.lower()
+    text = str(text).lower()
     # Remove urls
     text = re.sub('http[s]?://\S+', '', text)
     # remove emojis
