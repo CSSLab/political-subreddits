@@ -47,7 +47,7 @@ def clean_text(text):
     pos_tags = nltk.pos_tag(token_words)
     stem_text=[]
     for token,pos in pos_tags:
-        token = re.sub("[>@,\.!?']", '', token)
+        token = re.sub("[>@,^\.!?']", '', token)
         if token not in stopwords and (len(token) > 3 or token=="joe" or token=="amy" or token=="aoc"):
             pos_tag = get_wordnet_pos(pos)
             token = lemma.lemmatize(token,pos=pos_tag) if pos_tag else token 
