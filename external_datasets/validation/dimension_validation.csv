@@ -1,0 +1,61 @@
+,subreddit,projection,label,count,dim
+0,AskReddit,0.014677492458451865,NA,278615,Religion
+1,Christianity,0.33145228673733174,Religious,178140,Religion
+2,exmormon,-0.5170316947069865,Secular,170129,Religion
+3,atheism,-0.06928529265044621,Secular,158124,Religion
+4,politics,-0.06340297170338029,NA,91106,Religion
+5,Catholicism,0.284883258996972,Religious,71628,Religion
+6,worldnews,-0.023177348775599294,NA,60574,Religion
+7,AmItheAsshole,-0.08707765597184142,NA,58401,Religion
+8,news,-0.11095877334120736,NA,49982,Religion
+9,The_Donald,0.04947035911654386,Religious,45268,Religion
+10,unpopularopinion,0.02635772899848563,Religious,41088,Religion
+11,2007scape,0.04327016845279404,NA,39452,Religion
+12,TrueChristian,0.17093938011470952,Religious,37686,Religion
+13,DebateReligion,0.01633274789313594,NA,29746,Religion
+14,exchristian,-0.3450574024601721,Secular,28380,Religion
+15,pics,0.0036413645899002088,NA,27910,Religion
+16,todayilearned,-0.008484643332181557,NA,27382,Religion
+17,teenagers,0.08546776723606624,NA,26119,Religion
+18,mormon,-0.017697428862155157,Religious,26108,Religion
+19,funny,-0.02908247816648154,NA,25487,Religion
+20,latterdaysaints,0.14473520772468615,Religious,25440,Religion
+21,insanepeoplefacebook,-0.1901252809699036,Secular,23563,Religion
+22,memes,0.09871437968282322,NA,23458,Religion
+23,dankchristianmemes,0.061288950244305855,Religious,22812,Religion
+24,Reformed,0.2622610757851977,Religious,20412,Religion
+25,FortNiteBR,0.04402323675061327,NA,19405,Religion
+26,exjw,-0.20638957218968393,Secular,18435,Religion
+27,PublicFreakout,0.03862051311750565,Secular,17389,Religion
+28,conspiracy,0.05299060942316717,NA,17276,Religion
+29,PoliticalHumor,-0.06349151261000226,NA,16774,Religion
+AskReddit,-0.06461777030484134,NA,84824,Birth Control
+politics,0.11868775663849997,NA,84407,Birth Control
+unpopularopinion,0.12906547063213275,Pro-Choice,77351,Birth Control
+AmItheAsshole,-0.09953490465525208,NA,56119,Birth Control
+Abortiondebate,0.2187667947718603,Pro-Life,42203,Birth Control
+The_Donald,0.3309466576502802,NA,38327,Birth Control
+news,0.061053435507483114,Pro-Life,35325,Birth Control
+TwoXChromosomes,-0.11514242522205646,NA,32247,Birth Control
+GenderCritical,0.04649283643593272,Pro-Choice,31523,Birth Control
+childfree,-0.2028493460001171,Pro-Choice,26507,Birth Control
+worldnews,0.12321965103410253,Pro-Choice,25729,Birth Control
+relationship_advice,-0.1792521197504776,Pro-Choice,24715,Birth Control
+pics,0.095438794925942,Pro-Life,23734,Birth Control
+prolife,0.573230923179587,NA,23318,Birth Control
+insanepeoplefacebook,-0.00515949819609758,Pro-Life,21158,Birth Control
+changemyview,0.21308662074175713,NA,20766,Birth Control
+MensRights,0.3443218705870947,NA,19682,Birth Control
+PoliticalHumor,0.18992727140293517,NA,18982,Birth Control
+atheism,0.09324642367448871,NA,16850,Birth Control
+MGTOW,0.12967540216691253,NA,16136,Birth Control
+Christianity,0.34299004117369886,NA,15724,Birth Control
+MurderedByWords,0.13314600508302885,NA,15548,Birth Control
+birthcontrol,-0.4973812162570136,NA,13610,Birth Control
+Libertarian,0.36369286349745944,Pro-Choice,12902,Birth Control
+prochoice,0.03051490760241278,NA,12759,Birth Control
+Catholicism,0.4275474535582986,Pro-Choice,12722,Birth Control
+abortion,-0.292395964714298,Pro-Life,12684,Birth Control
+sex,-0.247656845515371,Pro-Life,12309,Birth Control
+WhitePeopleTwitter,0.10363619531898194,NA,11990,Birth Control
+AskFeminists,-0.10801369804712996,NA,11331,Birth Control
