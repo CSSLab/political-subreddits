@@ -1,211 +1,211 @@
-,subreddit,count,proportion,dim,label
-0,AquaSama,16607,0.5401528703854285,Religiosity,NA
-1,PrayerRequests,4812,0.3012018027040561,Religiosity,Religious
-2,Anglicanism,6392,0.22316877313036798,Religiosity,Religious
-3,mormon,26108,0.21505057493987018,Religiosity,Religious
-4,RPChristians,2151,0.20631114521388835,Religiosity,Religious
-5,Christians,3353,0.19879053773640837,Religiosity,Religious
-6,GayChristians,1941,0.19739652191599716,Religiosity,Religious
-7,OpenChristian,4194,0.19615546513259435,Religiosity,Religious
-8,Christian,11560,0.19048246770366464,Religiosity,Religious
-9,Christianmarriage,4473,0.17184018440261237,Religiosity,Religious
-10,exIglesiaNiCristo,4573,0.16874538745387455,Religiosity,Secular
-11,NoFapChristians,5732,0.16822704193936547,Religiosity,Religious
-12,excatholic,3498,0.16669843690430805,Religiosity,Secular
-13,Bible,5779,0.156561551798873,Religiosity,Religious
-14,OrthodoxChristianity,15751,0.1546414019930293,Religiosity,Religious
-15,TrueChristian,37686,0.15463143425722667,Religiosity,Religious
-16,latterdaysaints,25440,0.14648386892457577,Religiosity,Religious
-17,Reformed,20412,0.14127222518288843,Religiosity,Religious
-18,lds,1917,0.13365404727044553,Religiosity,Religious
-19,swoleacceptance,1443,0.13197366014267423,Religiosity,NA
-20,agnostic,2147,0.12875562218890554,Religiosity,Secular
-21,exlldm,2984,0.12853204686423156,Religiosity,Secular
-22,exmormon,170129,0.12848302591274613,Religiosity,Secular
-23,exchristian,28380,0.12506940955604326,Religiosity,Secular
-24,Christianity,178140,0.11519725606266462,Religiosity,Religious
-25,Catholicism,71628,0.11334494823141814,Religiosity,Religious
-26,RadicalChristianity,1522,0.10468395350436756,Religiosity,Religious
-27,jesuschristreddit,3159,0.10464769602809157,Religiosity,NA
-28,AskAChristian,7103,0.10303311623319167,Religiosity,NA
-29,DebateAChristian,7223,0.10111856196889306,Religiosity,NA
-0,abortion,12684,0.3153341288782816,Birth Control,Pro-Choice
-1,Abortiondebate,42203,0.23945507983159903,Birth Control,NA
-2,prochoice,12759,0.21593947804894562,Birth Control,Pro-Choice
-3,prolife,23318,0.19771572958443914,Birth Control,Pro-Life
-4,birthcontrol,13610,0.11436590366710363,Birth Control,Pro-Choice
-5,LeftWingMaleAdvocates,1502,0.11401244876271444,Birth Control,NA
-6,AskFeminists,11331,0.08160076048365608,Birth Control,NA
-7,Egalitarianism,1004,0.07995540336067532,Birth Control,Pro-Choice
-8,Kent,7,0.06862745098039216,Birth Control,NA
-9,amipregnant,955,0.06789421299587658,Birth Control,NA
-10,antifeminists,1027,0.06397558088830749,Birth Control,Pro-Life
-11,FeMRADebates,2306,0.055972232335736304,Birth Control,Pro-Choice
-12,WomensHealth,1703,0.055526573198565375,Birth Control,Pro-Choice
-13,GenderCritical,31523,0.05290700699373468,Birth Control,Pro-Choice
-14,PCOS,3847,0.04833886208283072,Birth Control,Pro-Choice
-15,Periods,799,0.04158642585749232,Birth Control,Pro-Choice
-16,PMDD,981,0.039756838905775076,Birth Control,Pro-Choice
-17,benshapiro,945,0.039145022989934136,Birth Control,Pro-Life
-18,MensRights,19682,0.039073760109903634,Birth Control,Pro-Life
-19,endometriosis,850,0.03684438664932813,Birth Control,Pro-Choice
-20,Feminism,3429,0.03533740055237231,Birth Control,Pro-Choice
-21,Endo,1220,0.033930359328067636,Birth Control,Pro-Choice
-22,GenderCriticalGuys,580,0.030225650112043357,Birth Control,NA
-23,PoliticalOpinions,420,0.030088115194498173,Birth Control,NA
-24,politicsdebate,356,0.02820919175911252,Birth Control,NA
-25,OneY,283,0.02805591355209676,Birth Control,NA
-26,childfree,26507,0.02766104652194194,Birth Control,NA
-27,mormonpolitics,420,0.02742588481128379,Birth Control,NA
-28,Alabama,1047,0.027343954034996083,Birth Control,NA
-29,TwoXChromosomes,32247,0.02615487560070564,Birth Control,Pro-Choice
-0,liberalgunowners,7630,0.04093896713615024,Gun Control,Less Regulation
-1,2ALiberals,1871,0.0405504984828782,Gun Control,Less Regulation
+,subreddit,count,proportion,dim,label,alignment
+0,AquaSama,16607,0.5401528703854285,Religiosity,NA,NA
+1,PrayerRequests,4812,0.3012018027040561,Religiosity,Religious,Aligned
+2,Anglicanism,6392,0.22316877313036798,Religiosity,Religious,Aligned
+3,mormon,26108,0.21505057493987018,Religiosity,Religious,Aligned
+4,RPChristians,2151,0.20631114521388835,Religiosity,Religious,Aligned
+5,Christians,3353,0.19879053773640837,Religiosity,Religious,Aligned
+6,GayChristians,1941,0.19739652191599716,Religiosity,Religious,Aligned
+7,OpenChristian,4194,0.19615546513259435,Religiosity,Religious,Aligned
+8,Christian,11560,0.19048246770366464,Religiosity,Religious,Aligned
+9,Christianmarriage,4473,0.17184018440261237,Religiosity,Religious,Aligned
+10,exIglesiaNiCristo,4573,0.16874538745387455,Religiosity,Secular,Opposing
+11,NoFapChristians,5732,0.16822704193936547,Religiosity,Religious,Aligned
+12,excatholic,3498,0.16669843690430805,Religiosity,Secular,Opposing
+13,Bible,5779,0.156561551798873,Religiosity,Religious,Aligned
+14,OrthodoxChristianity,15751,0.1546414019930293,Religiosity,Religious,Aligned
+15,TrueChristian,37686,0.15463143425722667,Religiosity,Religious,Aligned
+16,latterdaysaints,25440,0.14648386892457577,Religiosity,Religious,Aligned
+17,Reformed,20412,0.14127222518288843,Religiosity,Religious,Aligned
+18,lds,1917,0.13365404727044553,Religiosity,Religious,Aligned
+19,swoleacceptance,1443,0.13197366014267423,Religiosity,NA,NA
+20,agnostic,2147,0.12875562218890554,Religiosity,Secular,Opposing
+21,exlldm,2984,0.12853204686423156,Religiosity,Secular,Opposing
+22,exmormon,170129,0.12848302591274613,Religiosity,Secular,Opposing
+23,exchristian,28380,0.12506940955604326,Religiosity,Secular,Opposing
+24,Christianity,178140,0.11519725606266462,Religiosity,Religious,Aligned
+25,Catholicism,71628,0.11334494823141814,Religiosity,Religious,Aligned
+26,RadicalChristianity,1522,0.10468395350436756,Religiosity,Religious,Aligned
+27,jesuschristreddit,3159,0.10464769602809157,Religiosity,NA,NA
+28,AskAChristian,7103,0.10303311623319167,Religiosity,NA,NA
+29,DebateAChristian,7223,0.10111856196889306,Religiosity,NA,NA
+0,abortion,12684,0.3153341288782816,Birth Control,Pro-Choice,Opposing
+1,Abortiondebate,42203,0.23945507983159903,Birth Control,NA,NA
+2,prochoice,12759,0.21593947804894562,Birth Control,Pro-Choice,Opposing
+3,prolife,23318,0.19771572958443914,Birth Control,Pro-Life,Aligned
+4,birthcontrol,13610,0.11436590366710363,Birth Control,Pro-Choice,Opposing
+5,LeftWingMaleAdvocates,1502,0.11401244876271444,Birth Control,NA,NA
+6,AskFeminists,11331,0.08160076048365608,Birth Control,NA,NA
+7,Egalitarianism,1004,0.07995540336067532,Birth Control,Pro-Choice,Opposing
+8,Kent,7,0.06862745098039216,Birth Control,NA,NA
+9,amipregnant,955,0.06789421299587658,Birth Control,NA,NA
+10,antifeminists,1027,0.06397558088830749,Birth Control,Pro-Life,Aligned
+11,FeMRADebates,2306,0.055972232335736304,Birth Control,Pro-Choice,Opposing
+12,WomensHealth,1703,0.055526573198565375,Birth Control,Pro-Choice,Opposing
+13,GenderCritical,31523,0.05290700699373468,Birth Control,Pro-Choice,Opposing
+14,PCOS,3847,0.04833886208283072,Birth Control,Pro-Choice,Opposing
+15,Periods,799,0.04158642585749232,Birth Control,Pro-Choice,Opposing
+16,PMDD,981,0.039756838905775076,Birth Control,Pro-Choice,Opposing
+17,benshapiro,945,0.039145022989934136,Birth Control,Pro-Life,Aligned
+18,MensRights,19682,0.039073760109903634,Birth Control,Pro-Life,Aligned
+19,endometriosis,850,0.03684438664932813,Birth Control,Pro-Choice,Opposing
+20,Feminism,3429,0.03533740055237231,Birth Control,Pro-Choice,Opposing
+21,Endo,1220,0.033930359328067636,Birth Control,Pro-Choice,Opposing
+22,GenderCriticalGuys,580,0.030225650112043357,Birth Control,NA,NA
+23,PoliticalOpinions,420,0.030088115194498173,Birth Control,NA,NA
+24,politicsdebate,356,0.02820919175911252,Birth Control,NA,NA
+25,OneY,283,0.02805591355209676,Birth Control,NA,NA
+26,childfree,26507,0.02766104652194194,Birth Control,NA,NA
+27,mormonpolitics,420,0.02742588481128379,Birth Control,NA,NA
+28,Alabama,1047,0.027343954034996083,Birth Control,NA,NA
+29,TwoXChromosomes,32247,0.02615487560070564,Birth Control,Pro-Choice,Opposing
+0,liberalgunowners,7630,0.04093896713615024,Gun Control,Less Regulation,Aligned
+1,2ALiberals,1871,0.0405504984828782,Gun Control,Less Regulation,Aligned
 2,gunpolitics,6710,0.037840337461370145,Gun Control
-3,shitguncontrollerssay,1129,0.03385104341568722,Gun Control,Less Regulation
-4,NOWTTYG,670,0.033283656234475906,Gun Control,Less Regulation
-5,progun,11044,0.032803343303442804,Gun Control,Less Regulation
-6,VirginiaPolitics,309,0.026989256703642238,Gun Control,NA
-7,VAGuns,890,0.02614724719431224,Gun Control,Less Regulation
-8,WA_guns,655,0.018757696383057933,Gun Control,Less Regulation
-9,GunsAreCool,782,0.018456455038942648,Gun Control,More Regulation
-10,Firearms,7619,0.01763543103687724,Gun Control,Less Regulation
-11,Virginia,696,0.013864541832669323,Gun Control,NA
-12,ColoradoPolitics,131,0.013319776309100152,Gun Control,NA
-13,scotus,180,0.011787047344640167,Gun Control,NA
-14,SocialistRA,752,0.011454334978370803,Gun Control,Less Regulation
-15,stolaf,1,0.008620689655172414,Gun Control,NA
-16,CAguns,1000,0.008561423936029041,Gun Control,Less Regulation
-17,politicsdebate,102,0.008082408874801902,Gun Control,NA
-18,Iamactuallyverybadass,285,0.0080132711016139,Gun Control,Less Regulation
-19,canadaguns,1306,0.007392815496609267,Gun Control,Less Regulation
-20,TexasPolitics,290,0.007102446670421984,Gun Control,NA
-21,NYguns,106,0.007002246003435064,Gun Control,Less Regulation
-22,NJGuns,117,0.006906729634002361,Gun Control,Less Regulation
-23,blacksburg,1,0.006896551724137931,Gun Control,NA
-24,PoliticalOpinions,95,0.006805645103517444,Gun Control,NA
-25,California_Politics,126,0.006588579795021962,Gun Control,NA
-26,PoliticalDiscussion,1851,0.0061489705208188,Gun Control,NA
-27,Classical_Liberals,72,0.005694850905639484,Gun Control,Less Regulation
-28,libertarianmeme,512,0.0056151433396942375,Gun Control,Less Regulation
-29,dgu,76,0.005568581477139508,Gun Control,Less Regulation
-0,Socialism_101,12306,0.2819825393551935,Ideology,Progressive
-1,PublishProtocol,4028,0.2625643699889186,Ideology,NA
-2,capitalism_in_decay,2634,0.2171654711847638,Ideology,Progressive
-3,canadaleft,2692,0.20653675003836122,Ideology,Progressive
-4,DebateCommunism,9930,0.19157679470607528,Ideology,NA
-5,The_Donald,48288,0.1785440333126347,Ideology,Conservative
-6,CineShots,2373,0.1715215034333213,Ideology,NA
-7,SocialDemocracy,1185,0.1698437723950122,Ideology,Progressive
-8,CapitalismVSocialism,72803,0.15918478011321768,Ideology,NA
-9,DebateAnarchism,2525,0.156182346755737,Ideology,NA
-10,Capitalism,3083,0.15401908377878804,Ideology,Conservative
-11,benshapiro,1371,0.13636363636363635,Ideology,Conservative
-12,InsiderMemeTrading,5549,0.1343128237401365,Ideology,NA
-13,Fairfield,2,0.13333333333333333,Ideology,NA
-14,blockmason,2148,0.13194103194103193,Ideology,NA
-15,AskConservatives,5228,0.13160147006997935,Ideology,NA
-16,tuesday,3540,0.12994640628441378,Ideology,Conservative
-17,faireumofficial,1238,0.12806454949829316,Ideology,NA
-18,communism101,8758,0.12330695801537465,Ideology,Progressive
-19,Anarchy101,6952,0.11971139772355484,Ideology,Progressive
-20,MoviePosterPorn,1964,0.1185847119913054,Ideology,NA
-21,KCL,4,0.11764705882352941,Ideology,NA
-22,LateStageCapitalism,62136,0.11316363159533839,Ideology,Progressive
-23,ICOAnalysis,2190,0.09971769419907112,Ideology,NA
-24,askaconservative,9511,0.09750571542806762,Ideology,NA
-25,BasicIncome,4365,0.09532024545236172,Ideology,Progressive
-26,socialism,17790,0.09386773039541584,Ideology,Progressive
-27,AskALiberal,23031,0.09329428349212522,Ideology,NA
-28,Crypto_General,1102,0.09194826866916979,Ideology,NA
-29,Classical_Liberals,1143,0.09040575812702681,Ideology,Conservative
-0,industrialized,12828,0.9070852778956301,Age,NA
-1,iwanttobeher,14329,0.45276162790697677,Age,NA
-2,tud,1,0.3333333333333333,Age,NA
-3,teenagers,15271,0.28,Age,Younger
-4,Fairfield,4,0.26666666666666666,Age,NA
-5,Hairy,3266,0.2610294117647059,Age,NA
-6,HolyCross,1,0.25,Age,NA
-7,family,7977,0.24637860209407914,Age,Younger
-8,asshole,16823,0.21734861306701464,Age,NA
-9,claremontcolleges,8,0.20512820512820512,Age,NA
-10,Adoption,6771,0.20225222534201565,Age,Older
-11,colum,5,0.19230769230769232,Age,NA
-12,careerguidance,28406,0.18065262876730623,Age,Older
-13,funkoswap,13567,0.18058032743245042,Age,NA
-14,Genealogy,17441,0.18003055389252462,Age,Older
-15,NarcAbuseAndDivorce,1837,0.16473858846740203,Age,Older
-16,JUSTNOFAMILY,25056,0.15506485790672345,Age,NA
-17,2meirl4meirl,6730,0.1541421405831291,Age,Younger
-18,polyamoryR4R,1488,0.15045500505561174,Age,NA
-19,Mortgages,4210,0.14968356680651354,Age,Older
-20,fosterit,1684,0.13770545424809877,Age,Older
-21,SDSMT,3,0.13636363636363635,Age,NA
-22,Fosterparents,1399,0.1338884103741985,Age,Older
-23,dankmemes,2601,0.13343251423587954,Age,Younger
-24,FIREUK,2283,0.1316229460939752,Age,NA
-25,oneanddone,1716,0.1293239882432738,Age,Older
-26,careeradvice,1983,0.12894206385330645,Age,Older
-27,AsianParentStories,5721,0.12642255762048926,Age,Younger
-28,jamescook,1,0.125,Age,NA
-29,LifeAfterSchool,2381,0.12372687590937435,Age,Younger
-0,neoliberal,81320,0.04487982560225172,Trade,Pro-Trade
-1,SocialDemocracy,208,0.02981224021785868,Trade,Anti-Trade
-2,The_Donald,62458,0.024153880038176347,Trade,Anti-Trade
-3,amherst,1,0.01694915254237288,Trade,NA
-4,CriticalTheory,235,0.015593895155938951,Trade,Anti-Trade
-5,Kossacks_for_Sanders,168,0.013199245757385292,Trade,Anti-Trade
-6,chomsky,335,0.010574161169155013,Trade,Anti-Trade
-7,AskEconomics,431,0.010382539988437078,Trade,Pro-Trade
-8,Labour,275,0.010359376177201838,Trade,Anti-Trade
-9,Classical_Liberals,128,0.010124179387803528,Trade,Pro-Trade
-10,badeconomics,483,0.009339108240844581,Trade,Pro-Trade
-11,Socialism_101,394,0.009028207419628332,Trade,Anti-Trade
-12,LeftWithoutEdge,205,0.009003865073787773,Trade,Anti-Trade
-13,stupidpol,4309,0.008789733819362709,Trade,Anti-Trade
-14,neoconNWO,844,0.008753098327162607,Trade,Pro-Trade
-15,WayOfTheBern,3828,0.008318357537262027,Trade,Anti-Trade
-16,lostgeneration,1345,0.00818186242304791,Trade,NA
-17,DebateCommunism,415,0.008006482356799722,Trade,NA
-18,WeAreNotAsking,116,0.007711740460045207,Trade,Anti-Trade
-19,Argenpol,114,0.006996869821395691,Trade,NA
-20,PoliticalCompass,219,0.0068277474668745125,Trade,NA
-21,ndp,85,0.0066009163625067955,Trade,NA
-22,brasilnoticias,240,0.0062583118203864505,Trade,NA
-23,canadaleft,80,0.006137793463249962,Trade,NA
-24,BasicIncome,281,0.006136309042866814,Trade,NA
-25,BreadTube,1591,0.006007899765121706,Trade,Anti-Trade
-26,seculartalk,139,0.005957483284759129,Trade,Pro-Trade
-27,DebateAnarchism,96,0.005938021896455743,Trade,NA
-28,dsa,64,0.005936369539003803,Trade,Anti-Trade
-29,LeftWingMaleAdvocates,78,0.005920752998330044,Trade,NA
-0,EndlessWar,14904,0.5443985827519451,War,Pacifistic
-1,StrawHatRPG,8061,0.5294233547878628,War,NA
-2,GCTrading,9297,0.37329853443083716,War,NA
-3,tud,1,0.3333333333333333,War,NA
-4,CredibleDefense,45607,0.32469279947601487,War,Hawkish
-5,textfriends,3792,0.32013507809202196,War,NA
-6,ClashOfClansRecruit,23264,0.31901705885579507,War,NA
-7,unknownvideos,4219,0.3102434002500184,War,NA
-8,funnyvideos,3700,0.28496611213801604,War,NA
-9,AsianLadyBonerGW,5095,0.2776566757493188,War,NA
-10,RandomActsOfBlowJob,90243,0.2742706569937604,War,NA
-11,awoiafrp,8845,0.2727665217257224,War,NA
-12,Bitwarden,2964,0.26840532464004346,War,NA
-13,rwbyRP,6824,0.2643731597706493,War,NA
-14,resumes,17206,0.25444758285148106,War,NA
-15,LeftWithoutEdge,518,0.25367286973555336,War,Pacifistic
-16,Warts,2866,0.2534488857446056,War,NA
-17,BeckleyOnReddit,1,0.25,War,NA
-18,HardwareSwapUK,11581,0.2428391696372405,War,NA
-19,Newark,1503,0.24032619123760793,War,NA
-20,Cash4Cash,6788,0.23924153244281535,War,NA
-21,toyexchange,2693,0.23464319944236298,War,NA
-22,IronThroneRP,11616,0.23439202550546834,War,NA
-23,HistoryWhatIf,7014,0.2334809094237875,War,NA
-24,WarCollege,6204,0.2294803033105234,War,Hawkish
-25,PublishProtocol,3380,0.22032462029854638,War,NA
-26,dwarffortress,21998,0.21983051524963027,War,NA
-27,vmware,10203,0.21598221845893312,War,NA
-28,flairwars,5208,0.20662566951001785,War,NA
-29,de_IAmA,4439,0.2053476430587038,War,NA
+3,shitguncontrollerssay,1129,0.03385104341568722,Gun Control,Less Regulation,Aligned
+4,NOWTTYG,670,0.033283656234475906,Gun Control,Less Regulation,Aligned
+5,progun,11044,0.032803343303442804,Gun Control,Less Regulation,Aligned
+6,VirginiaPolitics,309,0.026989256703642238,Gun Control,NA,NA
+7,VAGuns,890,0.02614724719431224,Gun Control,Less Regulation,Aligned
+8,WA_guns,655,0.018757696383057933,Gun Control,Less Regulation,Aligned
+9,GunsAreCool,782,0.018456455038942648,Gun Control,More Regulation,Opposing
+10,Firearms,7619,0.01763543103687724,Gun Control,Less Regulation,Aligned
+11,Virginia,696,0.013864541832669323,Gun Control,NA,NA
+12,ColoradoPolitics,131,0.013319776309100152,Gun Control,NA,NA
+13,scotus,180,0.011787047344640167,Gun Control,NA,NA
+14,SocialistRA,752,0.011454334978370803,Gun Control,Less Regulation,Aligned
+15,stolaf,1,0.008620689655172414,Gun Control,NA,NA
+16,CAguns,1000,0.008561423936029041,Gun Control,Less Regulation,Aligned
+17,politicsdebate,102,0.008082408874801902,Gun Control,NA,NA
+18,Iamactuallyverybadass,285,0.0080132711016139,Gun Control,Less Regulation,Aligned
+19,canadaguns,1306,0.007392815496609267,Gun Control,Less Regulation,Aligned
+20,TexasPolitics,290,0.007102446670421984,Gun Control,NA,NA
+21,NYguns,106,0.007002246003435064,Gun Control,Less Regulation,Aligned
+22,NJGuns,117,0.006906729634002361,Gun Control,Less Regulation,Aligned
+23,blacksburg,1,0.006896551724137931,Gun Control,NA,NA
+24,PoliticalOpinions,95,0.006805645103517444,Gun Control,NA,NA
+25,California_Politics,126,0.006588579795021962,Gun Control,NA,NA
+26,PoliticalDiscussion,1851,0.0061489705208188,Gun Control,NA,NA
+27,Classical_Liberals,72,0.005694850905639484,Gun Control,Less Regulation,Aligned
+28,libertarianmeme,512,0.0056151433396942375,Gun Control,Less Regulation,Aligned
+29,dgu,76,0.005568581477139508,Gun Control,Less Regulation,Aligned
+0,Socialism_101,12306,0.2819825393551935,Ideology,Progressive,Opposing
+1,PublishProtocol,4028,0.2625643699889186,Ideology,NA,NA
+2,capitalism_in_decay,2634,0.2171654711847638,Ideology,Progressive,Opposing
+3,canadaleft,2692,0.20653675003836122,Ideology,Progressive,Opposing
+4,DebateCommunism,9930,0.19157679470607528,Ideology,NA,NA
+5,The_Donald,48288,0.1785440333126347,Ideology,Conservative,Aligned
+6,CineShots,2373,0.1715215034333213,Ideology,NA,NA
+7,SocialDemocracy,1185,0.1698437723950122,Ideology,Progressive,Opposing
+8,CapitalismVSocialism,72803,0.15918478011321768,Ideology,NA,NA
+9,DebateAnarchism,2525,0.156182346755737,Ideology,NA,NA
+10,Capitalism,3083,0.15401908377878804,Ideology,Conservative,Aligned
+11,benshapiro,1371,0.13636363636363635,Ideology,Conservative,Aligned
+12,InsiderMemeTrading,5549,0.1343128237401365,Ideology,NA,NA
+13,Fairfield,2,0.13333333333333333,Ideology,NA,NA
+14,blockmason,2148,0.13194103194103193,Ideology,NA,NA
+15,AskConservatives,5228,0.13160147006997935,Ideology,NA,NA
+16,tuesday,3540,0.12994640628441378,Ideology,Conservative,Aligned
+17,faireumofficial,1238,0.12806454949829316,Ideology,NA,NA
+18,communism101,8758,0.12330695801537465,Ideology,Progressive,Opposing
+19,Anarchy101,6952,0.11971139772355484,Ideology,Progressive,Opposing
+20,MoviePosterPorn,1964,0.1185847119913054,Ideology,NA,NA
+21,KCL,4,0.11764705882352941,Ideology,NA,NA
+22,LateStageCapitalism,62136,0.11316363159533839,Ideology,Progressive,Opposing
+23,ICOAnalysis,2190,0.09971769419907112,Ideology,NA,NA
+24,askaconservative,9511,0.09750571542806762,Ideology,NA,NA
+25,BasicIncome,4365,0.09532024545236172,Ideology,Progressive,Opposing
+26,socialism,17790,0.09386773039541584,Ideology,Progressive,Opposing
+27,AskALiberal,23031,0.09329428349212522,Ideology,NA,NA
+28,Crypto_General,1102,0.09194826866916979,Ideology,NA,NA
+29,Classical_Liberals,1143,0.09040575812702681,Ideology,Conservative,Aligned
+0,industrialized,12828,0.9070852778956301,Age,NA,NA
+1,iwanttobeher,14329,0.45276162790697677,Age,NA,NA
+2,tud,1,0.3333333333333333,Age,NA,NA
+3,teenagers,15271,0.28,Age,Younger,Opposing
+4,Fairfield,4,0.26666666666666666,Age,NA,NA
+5,Hairy,3266,0.2610294117647059,Age,NA,NA
+6,HolyCross,1,0.25,Age,NA,NA
+7,family,7977,0.24637860209407914,Age,Younger,Opposing
+8,asshole,16823,0.21734861306701464,Age,NA,NA
+9,claremontcolleges,8,0.20512820512820512,Age,NA,NA
+10,Adoption,6771,0.20225222534201565,Age,Older,Aligned
+11,colum,5,0.19230769230769232,Age,NA,NA
+12,careerguidance,28406,0.18065262876730623,Age,Older,Aligned
+13,funkoswap,13567,0.18058032743245042,Age,NA,NA
+14,Genealogy,17441,0.18003055389252462,Age,Older,Aligned
+15,NarcAbuseAndDivorce,1837,0.16473858846740203,Age,Older,Aligned
+16,JUSTNOFAMILY,25056,0.15506485790672345,Age,NA,NA
+17,2meirl4meirl,6730,0.1541421405831291,Age,Younger,Opposing
+18,polyamoryR4R,1488,0.15045500505561174,Age,NA,NA
+19,Mortgages,4210,0.14968356680651354,Age,Older,Aligned
+20,fosterit,1684,0.13770545424809877,Age,Older,Aligned
+21,SDSMT,3,0.13636363636363635,Age,NA,NA
+22,Fosterparents,1399,0.1338884103741985,Age,Older,Aligned
+23,dankmemes,2601,0.13343251423587954,Age,Younger,Opposing
+24,FIREUK,2283,0.1316229460939752,Age,NA,NA
+25,oneanddone,1716,0.1293239882432738,Age,Older,Aligned
+26,careeradvice,1983,0.12894206385330645,Age,Older,Aligned
+27,AsianParentStories,5721,0.12642255762048926,Age,Younger,Opposing
+28,jamescook,1,0.125,Age,NA,NA
+29,LifeAfterSchool,2381,0.12372687590937435,Age,Younger,Opposing
+0,neoliberal,81320,0.04487982560225172,Trade,Pro-Trade,Aligned
+1,SocialDemocracy,208,0.02981224021785868,Trade,Anti-Trade,Opposing
+2,The_Donald,62458,0.024153880038176347,Trade,Anti-Trade,Opposing
+3,amherst,1,0.01694915254237288,Trade,NA,NA
+4,CriticalTheory,235,0.015593895155938951,Trade,Anti-Trade,Opposing
+5,Kossacks_for_Sanders,168,0.013199245757385292,Trade,Anti-Trade,Opposing
+6,chomsky,335,0.010574161169155013,Trade,Anti-Trade,Opposing
+7,AskEconomics,431,0.010382539988437078,Trade,Pro-Trade,Aligned
+8,Labour,275,0.010359376177201838,Trade,Anti-Trade,Opposing
+9,Classical_Liberals,128,0.010124179387803528,Trade,Pro-Trade,Aligned
+10,badeconomics,483,0.009339108240844581,Trade,Pro-Trade,Aligned
+11,Socialism_101,394,0.009028207419628332,Trade,Anti-Trade,Opposing
+12,LeftWithoutEdge,205,0.009003865073787773,Trade,Anti-Trade,Opposing
+13,stupidpol,4309,0.008789733819362709,Trade,Anti-Trade,Opposing
+14,neoconNWO,844,0.008753098327162607,Trade,Pro-Trade,Aligned
+15,WayOfTheBern,3828,0.008318357537262027,Trade,Anti-Trade,Opposing
+16,lostgeneration,1345,0.00818186242304791,Trade,NA,NA
+17,DebateCommunism,415,0.008006482356799722,Trade,NA,NA
+18,WeAreNotAsking,116,0.007711740460045207,Trade,Anti-Trade,Opposing
+19,Argenpol,114,0.006996869821395691,Trade,NA,NA
+20,PoliticalCompass,219,0.0068277474668745125,Trade,NA,NA
+21,ndp,85,0.0066009163625067955,Trade,NA,NA
+22,brasilnoticias,240,0.0062583118203864505,Trade,NA,NA
+23,canadaleft,80,0.006137793463249962,Trade,NA,NA
+24,BasicIncome,281,0.006136309042866814,Trade,NA,NA
+25,BreadTube,1591,0.006007899765121706,Trade,Anti-Trade,Opposing
+26,seculartalk,139,0.005957483284759129,Trade,Pro-Trade,Aligned
+27,DebateAnarchism,96,0.005938021896455743,Trade,NA,NA
+28,dsa,64,0.005936369539003803,Trade,Anti-Trade,Opposing
+29,LeftWingMaleAdvocates,78,0.005920752998330044,Trade,NA,NA
+0,EndlessWar,14904,0.5443985827519451,War,Pacifistic,Opposing
+1,StrawHatRPG,8061,0.5294233547878628,War,NA,NA
+2,GCTrading,9297,0.37329853443083716,War,NA,NA
+3,tud,1,0.3333333333333333,War,NA,NA
+4,CredibleDefense,45607,0.32469279947601487,War,Hawkish,Aligned
+5,textfriends,3792,0.32013507809202196,War,NA,NA
+6,ClashOfClansRecruit,23264,0.31901705885579507,War,NA,NA
+7,unknownvideos,4219,0.3102434002500184,War,NA,NA
+8,funnyvideos,3700,0.28496611213801604,War,NA,NA
+9,AsianLadyBonerGW,5095,0.2776566757493188,War,NA,NA
+10,RandomActsOfBlowJob,90243,0.2742706569937604,War,NA,NA
+11,awoiafrp,8845,0.2727665217257224,War,NA,NA
+12,Bitwarden,2964,0.26840532464004346,War,NA,NA
+13,rwbyRP,6824,0.2643731597706493,War,NA,NA
+14,resumes,17206,0.25444758285148106,War,NA,NA
+15,LeftWithoutEdge,518,0.25367286973555336,War,Pacifistic,Opposing
+16,Warts,2866,0.2534488857446056,War,NA,NA
+17,BeckleyOnReddit,1,0.25,War,NA,NA
+18,HardwareSwapUK,11581,0.2428391696372405,War,NA,NA
+19,Newark,1503,0.24032619123760793,War,NA,NA
+20,Cash4Cash,6788,0.23924153244281535,War,NA,NA
+21,toyexchange,2693,0.23464319944236298,War,NA,NA
+22,IronThroneRP,11616,0.23439202550546834,War,NA,NA
+23,HistoryWhatIf,7014,0.2334809094237875,War,NA,NA
+24,WarCollege,6204,0.2294803033105234,War,Hawkish,Aligned
+25,PublishProtocol,3380,0.22032462029854638,War,NA,NA
+26,dwarffortress,21998,0.21983051524963027,War,NA,NA
+27,vmware,10203,0.21598221845893312,War,NA,NA
+28,flairwars,5208,0.20662566951001785,War,NA,NA
+29,de_IAmA,4439,0.2053476430587038,War,NA,NA
