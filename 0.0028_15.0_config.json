@@ -1,1 +1,1 @@
-{"embeddings": [{"tensorName": "0.0028_15.0", "tensorShape": [10541, 150], "tensorPath": "/h/224/cameron/public_html/0.0028_15.0_metadata.tsv", "metadataPath": "/h/224/cameron/public_html/0.0028_15.0_vecs.tsv"}]}
+{"embeddings": [{"tensorName": "0.0028_15.0", "tensorShape": [10541, 150], "tensorPath": "https://raw.githubusercontent.com/CSSLab/Political-Subreddit-Embedding/master/0.0028_15.0_vecs.tsv", "metadataPath": "https://raw.githubusercontent.com/CSSLab/Political-Subreddit-Embedding/master/0.0028_15.0_metadata.tsv"}]}
